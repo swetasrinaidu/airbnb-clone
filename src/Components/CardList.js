@@ -1,16 +1,21 @@
 import Card from './Card';
-import image1 from '../Images/image1.webp'
-import image2 from '../Images/image2.webp'
-import image3 from '../Images/image3.webp'
+import data from '../data';
+
+console.log(data)
 
 export default function CardList(){
+    const newData = data.map(el=>{
+        return(<Card 
+                key={el.id}
+                {...el}
+            />
+        )
+    })
     return(
         <div>
-           <h1>Top-rated apartments</h1>
+           <h1>Plan a trip with help from local Hosts around the world </h1>
            <div className='cardlist'>
-                <Card img={image1} rating={4.53} cost={3000}/>
-                <Card img={image2} rating={4.58} cost={4000}/>
-                <Card img={image3} rating ={4.99} cost={2000}/>
+              {newData}
            </div>
 
 

@@ -29,7 +29,6 @@
 .card{
   width:400px;
   margin: 20px;
-  background-color: blue;
   padding:10px;
 }
 .card-image{
@@ -54,12 +53,11 @@
   font-weight: bold;
 }
 .cardlist{
-  width:1200px;
-  height:600px;
+  width:1000px;
+  height:400px;
   display:flex;
   flex-direction: row;
-  background-color: pink;
-  margin-left:50px;
+  margin-left:10px;
 }
 /* .App-logo {
   height: 40vmin;
