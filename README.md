@@ -1,3 +1,6 @@
+Here's the deployed project:
+https://sparkling-monstera-8cfe83.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
